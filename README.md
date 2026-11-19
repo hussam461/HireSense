@@ -1,5 +1,7 @@
 # HireSense
 
+> **Looking for contributors:** HireSense is open to new contributors. There are 15 open issues, several marked [`good first issue`](https://github.com/khizzcr7/HireSense/labels/good%20first%20issue), each with a written spec and acceptance criteria. See [Contributing](#contributing) below.
+
 AI recruitment helper: upload a resume (PDF), enter a job title and an optional job description, and get AI-generated feedback on how well the resume matches the role.
 
 ## What it does
@@ -24,7 +26,7 @@ You need Node 18+ and a Google Gemini API key.
 # Server (terminal 1)
 cd hiresense-server
 npm install
-# create .env with: GEMINI_API_KEY=your-key-here
+# create .env with: GEMINI_API_KEY=<your-key>
 node index.js          # http://localhost:5000
 
 # Client (terminal 2)
